@@ -166,7 +166,7 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.22539, -11, -8.39715 )
 
 [node name="Tree_4" parent="." index="4" instance=ExtResource( 5 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 18.065, -11, -9.07615 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5941, -11, -15.7048 )
 
 [node name="Tree_2" parent="." index="5" instance=ExtResource( 6 )]
 
@@ -210,7 +210,6 @@ _sections_unfolded = [ "Directional Shadow", "Editor", "Light", "Shadow", "Trans
 
 [node name="Balls" type="Spatial" parent="." index="9"]
 
-editor/display_folded = true
 transform = Transform( 0.991455, 0.0764834, 0.105675, -0.0681651, 0.994445, -0.0802067, -0.111223, 0.072318, 0.991161, -12.6668, 101.402, 11.4697 )
 
 [node name="Ball" parent="Balls" index="0" instance=ExtResource( 9 )]
