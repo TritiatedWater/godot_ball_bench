@@ -62,7 +62,7 @@ public class Benchmark : Node {
                 tickArr.Add(curTick - prevTick);;
                 prevTick = curTick;
 
-                if (elapsed > 360) {
+                if (elapsed > 25) {
                         avgFps = fps / elapsed;
                         elapsedTick = curTick - startTick;
                         frameTime = elapsedTick / fps;

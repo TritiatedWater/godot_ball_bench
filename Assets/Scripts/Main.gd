@@ -1,10 +1,6 @@
-extends Spatial
+extends Node
 
-# class member variables go here, for example:
-# var a = 2
-# var b = "textvar"
 var fps_label = null
-var var_label = null
 var time_start = 0
 var time_now = 0
 var fps = 0
