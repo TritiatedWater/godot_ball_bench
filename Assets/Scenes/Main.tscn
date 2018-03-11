@@ -1,6 +1,6 @@
 [gd_scene load_steps=13 format=2]
 
-[ext_resource path="res://Assets/Scripts/Main.gd" type="Script" id=1]
+[ext_resource path="res://Assets/Scripts/Benchmark.cs" type="Script" id=1]
 [ext_resource path="res://Assets/Gridmap/Floor.tres" type="MeshLibrary" id=2]
 [ext_resource path="res://Assets/Fonts/ubuntu/ubuntu-M.tres" type="DynamicFont" id=3]
 [ext_resource path="res://Assets/Scenes/Trees/Tree_1.tscn" type="PackedScene" id=4]
