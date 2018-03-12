@@ -178,23 +178,23 @@ far = 150.0
 
 [node name="Tree_1" parent="." index="3" instance=ExtResource( 4 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -19.9992, -10.6888, -0.727589 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -13.9992, -10.6888, 1.27241 )
 
 [node name="Tree_3" parent="." index="4" instance=ExtResource( 5 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 4.22539, -11, -8.39715 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 10.2254, -11, -6.39715 )
 
 [node name="Tree_4" parent="." index="5" instance=ExtResource( 6 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -16.5941, -11, -15.7048 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -10.5941, -11, -13.7048 )
 
 [node name="Tree_2" parent="." index="6" instance=ExtResource( 7 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -12.05, -11, 10.9676 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -6.05, -11, 12.9676 )
 
 [node name="Tree_5" parent="." index="7" instance=ExtResource( 8 )]
 
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 6.43831, -11, 7.86622 )
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 12.4383, -11, 9.86622 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." index="8"]
 
@@ -230,7 +230,8 @@ _sections_unfolded = [ "Directional Shadow", "Editor", "Light", "Shadow", "Trans
 
 [node name="Balls" type="Spatial" parent="." index="10"]
 
-transform = Transform( 0.991455, 0.0764834, 0.105675, -0.0681651, 0.994445, -0.0802067, -0.111223, 0.072318, 0.991161, -4.6668, 101.402, -2.5303 )
+editor/display_folded = true
+transform = Transform( 0.991455, 0.0764834, 0.105675, -0.0681651, 0.994445, -0.0802067, -0.111223, 0.072318, 0.991161, 0.3332, 38.402, -1.5303 )
 
 [node name="Ball" parent="Balls" index="0" instance=ExtResource( 10 )]
 

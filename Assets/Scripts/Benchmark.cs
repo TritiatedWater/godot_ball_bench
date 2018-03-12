@@ -62,7 +62,7 @@ public class Benchmark : Node {
                 tickArr.Add(curTick - prevTick);;
                 prevTick = curTick;
 
-                if (elapsed > 25) {
+                if (elapsed > 180) {
                         avgFps = fps / elapsed;
                         elapsedTick = curTick - startTick;
                         frameTime = elapsedTick / fps;
@@ -72,7 +72,6 @@ public class Benchmark : Node {
                         GD.Print("Elapsed Time: ", elapsed, " seconds");
                         GD.Print("AVG FPS: ", fps / elapsed);
                         GD.Print("AVG Frame Time: ", frameTime , " milliseconds per FPS");
-                        GD.Print("0.1 % High Frame Time: ", tickArr[((int)0.99 * fps)]);
                         GD.Print("0.1 % Low FPS: ", fpsArr[(int)(0.01 * fps)]);
                         GetTree().Quit();
                         

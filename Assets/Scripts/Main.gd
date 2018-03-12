@@ -47,7 +47,7 @@ func _process(delta):
 	tick_arr.append(cur_tick - prev_tick)
 	prev_tick = cur_tick
 	
-	if (elapsed > 40):
+	if (elapsed > 180):
 		avg_fps = (fps / elapsed)
 		elapsed_tick = cur_tick - start_tick
 		frame_time = elapsed_tick / fps
@@ -56,7 +56,6 @@ func _process(delta):
 		print("Elapsed Time: ", elapsed, " seconds")
 		print("AVG FPS: ", fps / elapsed)
 		print("AVG Frame Time: ", frame_time , " milliseconds per FPS")
-		print("0.1 % High Frame Time: ", tick_arr[(0.99 * fps)])
 		print("0.1 % Low FPS: ", fps_arr[(0.01 * fps)])
 		
 		get_tree().quit()

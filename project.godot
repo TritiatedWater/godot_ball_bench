@@ -52,6 +52,7 @@ jump=[ Object(InputEventKey,"resource_local_to_scene":false,"resource_name":"","
 [physics]
 
 3d/physics_engine="Bullet"
+3d/default_gravity=1.0
 
 [rendering]
 
